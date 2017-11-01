@@ -25,7 +25,7 @@ $sumze1 = sprintf("%02d", $i);
 $sumze2 = sprintf("%02d", $s);
 $sumze3 = sprintf("%02d", $h);
 echo "$sumze3$sumze1$sumze2";
-$sumza = "$sumze3$sumze1$sumze3";
+$sumza = "$sumze3$sumze1$sumze2";
 $tt = $feed_item->title;
 $linkt = "Link to news: $feed_item->link";
 $source = "Source: Bitcoin News";
