@@ -1,9 +1,9 @@
 <?php
+date_default_timezone_set("Etc/GMT");
 $day = date(d);
 $year = date(y);
 $b= strftime("%b");
 $a= strftime("%a");
-date_default_timezone_set("Etc/GMT");
 $rss_feed = simplexml_load_file("https://news.bitcoin.com/feed/");
 if(!empty($rss_feed)) {
 $i=0;
