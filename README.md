@@ -1,4 +1,4 @@
-# telegram-news-notifier
+# telegram-news-notifier V2
 With telegram news notifier you are able to publish news in your channel from a RSS feed in another site.
 <p>Remember to set a cron job for the file of your source. In this project the file that should be run in cron job is news-bitcoin-com.php
   </p>
